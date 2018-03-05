@@ -2,8 +2,8 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.3 (2018-03-05)
+------------------
 * fixed warning that resulted in error
 * fixed package dep
 * Merge pull request #324 from icarpis/development
