@@ -717,7 +717,7 @@ void BaseRealSenseNode::setupStreams()
                     imu_msg.orientation.y = 0.0;
                     imu_msg.orientation.z = 0.0;
                     imu_msg.orientation.w = 0.0;
-                    imu_msg.orientation_covariance = { -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+                    imu_msg.orientation_covariance = {{ -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}};
 
                     auto axes = *(reinterpret_cast<const float3*>(frame.get_data()));
                     if (GYRO == stream_index)
