@@ -2,8 +2,8 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.10.1 (2019-03-29)
+-------------------
 * Merge branch 'fix-warning-error' into 'erbium-devel'
   bumped minor to avoid tag conflict with upstream
   See merge request ros-overlays/realsense!3
