@@ -25,6 +25,11 @@
   <depend>tf</depend>
   <depend>ddynamic_reconfigure</depend>
   <depend>diagnostic_updater</depend>
+  
+  <build_depend>librealsense2-dev</build_depend>
+  <exec_depend>librealsense2</exec_depend>
+  <build_export_depend>librealsense2-dev</build_export_depend>
+  
   <export>
     <nodelet plugin="${prefix}/nodelet_plugins.xml" />
   </export>
