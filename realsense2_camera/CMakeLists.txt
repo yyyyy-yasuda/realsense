@@ -60,11 +60,11 @@ generate_messages(
     std_msgs
     )
 
-include_directories(
-    include
+include_directories(SYSTEM
     ${catkin_INCLUDE_DIRS}
-    ${realsense_INCLUDE_DIR}
-    )
+    ${realsense2_INCLUDE_DIR})
+    
+include_directories(include)
 
 # RealSense ROS Node
 catkin_package(
@@ -75,6 +75,7 @@ catkin_package(
     image_transport
     ddynamic_reconfigure
     nav_msgs
+    DEPENDS realsense2
     )
 
 add_library(${PROJECT_NAME}
@@ -92,7 +93,7 @@ add_dependencies(${PROJECT_NAME} ${catkin_EXPORTED_TARGETS})
 
 
 target_include_directories(${PROJECT_NAME}
-  PRIVATE ${realsense_INCLUDE_DIR})
+  PRIVATE ${realsense2_INCLUDE_DIR})
 
 target_link_libraries(${PROJECT_NAME}
     ${realsense2_LIBRARY}
