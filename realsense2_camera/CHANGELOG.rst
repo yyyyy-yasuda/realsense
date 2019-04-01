@@ -2,8 +2,8 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.10.2 (2019-04-01)
+-------------------
 * Merge branch 'fix_dependencies' into 'erbium-devel'
   Fix dependencies
   See merge request ros-overlays/realsense!4
