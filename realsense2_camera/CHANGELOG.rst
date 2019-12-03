@@ -2,8 +2,8 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.10.3 (2019-12-03)
+-------------------
 * Disable pal flags
 * Added missing eigen build dependency
 * Contributors: Jordan Palacios
