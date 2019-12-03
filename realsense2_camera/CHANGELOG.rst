@@ -2,6 +2,12 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Disable pal flags
+* Added missing eigen build dependency
+* Contributors: Jordan Palacios
+
 2.10.2 (2019-04-01)
 -------------------
 * Merge branch 'fix_dependencies' into 'erbium-devel'
