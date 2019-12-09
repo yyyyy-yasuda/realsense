@@ -2,8 +2,8 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.0 (2019-12-09)
+------------------
 * Added missing eigen build dependency
 * added disable_pal_flags() to CMakeLists.txt
 * update package dependencies in package.xml
