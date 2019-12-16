@@ -2,6 +2,14 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 't265_fisheyes_baseline' into 'erbium-devel'
+  Adding the baseline translation in the projection matrix of the fisheye on the right, the fisheye2
+  See merge request ros-overlays/realsense!8
+* Adding the baseline translation in the projection matrix of the fisheye on the right, the fisheye2
+* Contributors: Victor Lopez, alessandrodifava
+
 3.0.0 (2019-12-09)
 ------------------
 * Added missing eigen build dependency

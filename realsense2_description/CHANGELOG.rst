@@ -2,6 +2,9 @@
 Changelog for package realsense2_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 3.0.0 (2019-12-09)
 ------------------
 * Merge branch 'gazebo_xacro' into 'upstream'
