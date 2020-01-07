@@ -2,6 +2,15 @@
 Changelog for package realsense2_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'fix-link-chain' into 'erbium-devel'
+  Add pose_frame link
+  See merge request ros-overlays/realsense!9
+* Add transform between pose_frame and camera link for image orientation
+* Add pose_frame link
+* Contributors: Victor Lopez
+
 3.0.1 (2019-12-16)
 ------------------
 

@@ -2,6 +2,9 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 3.0.1 (2019-12-16)
 ------------------
 * Merge branch 't265_fisheyes_baseline' into 'erbium-devel'
