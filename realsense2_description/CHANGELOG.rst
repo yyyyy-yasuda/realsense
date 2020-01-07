@@ -2,8 +2,8 @@
 Changelog for package realsense2_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.2 (2020-01-07)
+------------------
 * Merge branch 'fix-link-chain' into 'erbium-devel'
   Add pose_frame link
   See merge request ros-overlays/realsense!9
