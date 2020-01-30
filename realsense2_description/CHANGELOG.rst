@@ -2,6 +2,14 @@
 Changelog for package realsense2_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'pointcloud_gazebo' into 'erbium-devel'
+  added publish_pointcloud argument to urdf and remove tab spaces
+  See merge request ros-overlays/realsense!10
+* added publish_pointcloud argument to urdf and remove tab spaces
+* Contributors: Sai Kishor Kothakota, Victor Lopez
+
 3.0.2 (2020-01-07)
 ------------------
 * Merge branch 'fix-link-chain' into 'erbium-devel'
