@@ -2,8 +2,8 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.1.1 (2020-02-05)
+------------------
 * Merge branch 'torso-pointcloud-fix' into 'erbium-devel'
   Changed default value of allow_no_texture_points to true
   See merge request ros-overlays/realsense!11
