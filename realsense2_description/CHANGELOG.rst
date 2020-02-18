@@ -2,6 +2,14 @@
 Changelog for package realsense2_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'topics-update' into 'erbium-devel'
+  Changed /depth/points to /depth/color/points
+  See merge request ros-overlays/realsense!12
+* Changed /depth/points to /depth/color/points
+* Contributors: saikishor, saracooper
+
 3.1.1 (2020-02-05)
 ------------------
 
