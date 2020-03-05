@@ -317,6 +317,8 @@ namespace realsense2_camera
         stream_index_pair _base_stream;
         const std::string _namespace;
 
+        sensor_msgs::PointCloud2 _msg_pointcloud;
+        std::vector< unsigned int > _valid_pc_indices;
         int pointcloud_frame_skip_;
 
     };//end class
