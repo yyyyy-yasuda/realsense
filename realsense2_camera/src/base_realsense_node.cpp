@@ -612,6 +612,9 @@ void BaseRealSenseNode::getParameters()
     _pnh.param("angular_velocity_cov", _angular_velocity_cov, static_cast<double>(0.01));
     _pnh.param("hold_back_imu_for_frames", _hold_back_imu_for_frames, HOLD_BACK_IMU_FOR_FRAMES);
     _pnh.param("publish_odom_tf", _publish_odom_tf, PUBLISH_ODOM_TF);
+
+    _pnh.param("pointcloud_frame_skip", pointcloud_frame_skip_, POINTCLOUD_FRAME_SKIP);
+
 }
 
 void BaseRealSenseNode::setupDevice()
@@ -1594,7 +1597,7 @@ void BaseRealSenseNode::frame_callback(rs2::frame frame)
 
                 if (f.is<rs2::points>())
                 {
-                    if (0 != _pointcloud_publisher.getNumSubscribers())
+                    if (0 != _pointcloud_publisher.getNumSubscribers() && frame.get_frame_number()%pointcloud_frame_skip_ == 0)
                     {
                         ROS_DEBUG("Publish pointscloud");
                         publishPointCloud(f.as<rs2::points>(), t, frameset);
