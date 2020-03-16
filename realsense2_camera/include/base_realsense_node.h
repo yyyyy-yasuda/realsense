@@ -333,6 +333,8 @@ namespace realsense2_camera
         stream_index_pair _base_stream;
         const std::string _namespace;
 
+        int pointcloud_frame_skip_;
+
     };//end class
 
 }
