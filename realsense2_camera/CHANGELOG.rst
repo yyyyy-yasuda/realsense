@@ -2,8 +2,8 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.1.4 (2020-03-25)
+------------------
 * Revert "compatible way of disabling pal flags"
   This reverts commit 4e17d45bb4c8dfb2ac1d7fad3beb481d5e74afd9.
 * Contributors: Procópio Stein
