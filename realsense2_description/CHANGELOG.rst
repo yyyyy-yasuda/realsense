@@ -2,6 +2,9 @@
 Changelog for package realsense2_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 3.1.2 (2020-02-18)
 ------------------
 * Merge branch 'topics-update' into 'erbium-devel'

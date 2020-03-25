@@ -2,6 +2,12 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* compatible way of disabling pal flags
+* hack to reduce pointcloud publishing frequency
+* Contributors: Procópio Stein, federiconardi
+
 3.1.2 (2020-02-18)
 ------------------
 
