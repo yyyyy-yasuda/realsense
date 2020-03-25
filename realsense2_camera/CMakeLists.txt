@@ -5,7 +5,6 @@ add_compile_options(-std=c++11)
 option(BUILD_WITH_OPENMP "Use OpenMP" OFF)
 option(SET_USER_BREAK_AT_STARTUP "Set user wait point in startup (for debug)" OFF)
 
-set(DISABLE_PAL_FLAGS TRUE)
 find_package(catkin REQUIRED COMPONENTS
     message_generation
     nav_msgs
@@ -19,6 +18,7 @@ find_package(catkin REQUIRED COMPONENTS
     ddynamic_reconfigure
     diagnostic_updater
     )
+disable_pal_flags()
 
 if(BUILD_WITH_OPENMP)
     find_package(OpenMP)
