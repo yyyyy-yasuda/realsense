@@ -14,7 +14,7 @@ aluminum peripherial evaluation case.
 
   <xacro:macro name="sensor_d435" params="parent *origin name:=camera use_nominal_extrinsics:=false topics_ns:=camera publish_pointcloud:=true">
     <xacro:property name="M_PI" value="3.1415926535897931" />
-  
+
     <!-- The following values are approximate, and the camera node
      publishing TF values with actual calibrated camera extrinsic values -->
     <xacro:property name="d435_cam_depth_to_infra1_offset" value="0.0"/>
@@ -22,7 +22,7 @@ aluminum peripherial evaluation case.
     <xacro:property name="d435_cam_depth_to_color_offset" value="0.015"/>
 
     <!-- The following values model the aluminum peripherial case for the
-    D435 camera, with the camera joint represented by the actual 
+    D435 camera, with the camera joint represented by the actual
     peripherial camera tripod mount -->
     <xacro:property name="d435_cam_width" value="0.090"/>
     <xacro:property name="d435_cam_height" value="0.025"/>
@@ -77,7 +77,7 @@ aluminum peripherial evaluation case.
     </link>
 
     <!-- Use the nominal extrinsics between camera frames if the calibrated extrinsics aren't being published. e.g. running the device in simulation  -->
-    <xacro:if value="$(arg use_nominal_extrinsics)">
+    <xacro:if value="${use_nominal_extrinsics}">
       <!-- camera depth joints and links -->
       <joint name="${name}_depth_joint" type="fixed">
         <origin xyz="0 0 0" rpy="0 0 0"/>
