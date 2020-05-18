@@ -2,6 +2,23 @@
 Changelog for package realsense2_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'update-upstream' into 'erbium-devel'
+  Update upstream
+  See merge request ros-overlays/realsense!17
+* fixed tests usage of extrinsic param
+* fixed usage of use_nominal_extrinsics
+* Merge branch 'ari-sim' into 'erbium-devel'
+  updated realsense urdf for ari simulation
+  See merge request ros-overlays/realsense!18
+* updated realsense urdf for ari simulation
+* Merge pull request #1016 from doronhi/fix_urdf_tests
+  fix urdf tests
+* Merge branch 'tykurtz-rename-frames-urdf' into development
+* Merge branch 'parametrized-xacro' into development
+* Contributors: Procópio Stein, doronhi, federiconardi, procopiostein
+
 3.1.4 (2020-03-25)
 ------------------
 

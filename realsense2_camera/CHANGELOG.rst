@@ -2,6 +2,31 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'update-upstream' into 'erbium-devel'
+  Update upstream
+  See merge request ros-overlays/realsense!17
+* Merge pull request #1112 from doronhi/catch_device
+  catch failure on device creation.
+* Merge pull request #1095 from doronhi/join_query_thread
+  Join query thread
+* Merge branch 'support_L515' into development
+* Merge branch 'optimize_pointcloud' into development
+* Merge pull request #1084 from doronhi/release_build
+  fix bug: enable building release version instead of debug.
+* Merge pull request #1088 from doronhi/usb_port_id
+  update parsing port_id
+* Merge pull request #802 from ahoarau/patch-1
+  add missing eigen dependency
+* Merge branch 'tykurtz-rename-frames-urdf' into development
+* Merge pull request #1010 from doronhi/fix_imu_copy
+  fixed unite_imu_method copy to transmit at gyro's rate.
+* fix point cloud test to work with outdorrs_1color.bag file.
+* Merge pull request #993 from sahandy/bugfix/wrong-rgb-datatype-in-ros-msg
+  Fix wrong PointField Type for Colored Point Cloud Messages
+* Contributors: doronhi, procopiostein
+
 3.1.4 (2020-03-25)
 ------------------
 * Revert "compatible way of disabling pal flags"
