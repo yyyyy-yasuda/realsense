@@ -2,8 +2,8 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.1.5 (2020-05-18)
+------------------
 * Merge branch 'update-upstream' into 'erbium-devel'
   Update upstream
   See merge request ros-overlays/realsense!17
