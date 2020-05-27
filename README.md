@@ -15,10 +15,8 @@ The following instructions support ROS Indigo, on **Ubuntu 14.04**, and ROS Kine
 #### OR
 - #### Build from sources by downloading the latest [Intel&reg; RealSense&trade; SDK 2.0](https://github.com/IntelRealSense/librealsense/releases/tag/v2.29.0) and follow the instructions under [Linux Installation](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md)
 
-* ### Method 1: The ROS distribution:
-    realsense2_camera is available as a debian package of ROS distribution. It can be installed by typing:
-    
-    `sudo apt-get install ros-kinetic-realsense2-camera`
+### Step 2: Install the ROS distribution
+- #### Install [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu), on Ubuntu 16.04
 
 ### Step 3: Install Intel&reg; RealSense&trade; ROS from Sources
 - Create a [catkin](http://wiki.ros.org/catkin#Installing_catkin) workspace
