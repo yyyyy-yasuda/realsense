@@ -2,8 +2,8 @@
 Changelog for package realsense2_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.1.6 (2020-05-29)
+------------------
 * Merge branch 'revert-upstream-update' into 'ferrum-devel'
   Revert "Merge branch 'update-upstream' into 'erbium-devel'"
   See merge request ros-overlays/realsense!20
