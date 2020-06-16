@@ -2288,7 +2288,7 @@ void BaseRealSenseNode::startMonitoring()
         _temperature_nodes.push_back({option, std::make_shared<TemperatureDiagnostics>(rs2_option_to_string(option), _serial_no )});
     }
 
-    int time_interval(10000);
+    int time_interval(3000);
     std::function<void()> func = [this, time_interval](){
         std::mutex mu;
         std::unique_lock<std::mutex> lock(mu);
