@@ -2,8 +2,8 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.1.7 (2020-06-16)
+------------------
 * Merge branch 'increase-temp-diagnostics' into 'ferrum-devel'
   Increase temperature diagnostics so they don't appear as stale
   See merge request ros-overlays/realsense!21
