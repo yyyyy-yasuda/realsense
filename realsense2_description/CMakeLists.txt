@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(realsense2_description)
 
+set(DISABLE_PAL_FLAGS TRUE)
+
 find_package(catkin REQUIRED COMPONENTS
     )
 
